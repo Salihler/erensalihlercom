@@ -31,27 +31,36 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container terminal-container">
-    <div class="row">
-      <div class="three columns">
-        <p></p>
-      </div>
-      <div class="six columns terminal">
-        <div class="terminal-header">
-          <button class="close-button"></button>
+  <div class="crt">
+    <div class="container terminal-container">
+      <div class="row">
+        <div class="three columns">
+          <p></p>
         </div>
-        <div class="cl-screen">
-          <p>sadsadasdsa</p>
-            <input class="terminal-input" type="text" autofocus>
-        </div>
+        <div class="six columns terminal">
+          <div class="terminal-header">
+            <button class="close-button"></button>
+          </div>
+          <div class="cl-screen">
+            <div id="screen" class="container">
+              <div class="row" id="rows"></div>
+              <div class="row">
+                <form id="form" action="">
+                  <input type="text" name="text" id="text">
+                </form>
+              </div>
 
-      </div>
-      <div class="three columns">
-        <p></p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="three columns">
+          <p></p>
+        </div>
       </div>
     </div>
   </div>
-
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="scripts/script.js"></script>

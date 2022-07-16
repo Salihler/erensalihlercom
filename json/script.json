@@ -1,0 +1,26 @@
+{
+    "mainmenu" : [
+        "English / Türkçe",
+        "Projeler",
+        "Sosyal Medya",
+        "İletişim"
+    ],
+    "projects": [
+        "Like Disc (Not Live Yet)",
+        "http://www.likedisc.com/",
+        "Network Changer (Windows App)",
+        "https://github.com/Salihler/erensalihlercom"
+    ],
+    "social-media":[
+        "github",
+        "https://github.com/Salihler",
+        "linkedin",
+        "https://www.linkedin.com/in/eren-salihler/",
+        "twitch",
+        "https://www.twitch.tv/diskoking"
+    ],
+    "contact":[
+        "E-Posta",
+        "eren.salihler@gmail.com"
+    ]
+}
