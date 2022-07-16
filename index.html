@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/crt.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -39,19 +40,16 @@
         </div>
         <div class="six columns terminal">
           <div class="terminal-header">
-            <button class="close-button"></button>
+            <button class="close-button" onclick="Funny()"></button>
           </div>
           <div class="cl-screen">
             <div id="screen" class="container">
-              <div class="row" id="rows"></div>
-              <div class="row">
-                <form id="form" action="">
-                  <input type="text" name="text" id="text">
-                </form>
+              <div class="row" id="languages">
+                <a class="screen-button" onclick="ChangeLang(1)">TR</a> / <a class="screen-button" onclick="ChangeLang(2)">EN</a>
               </div>
-
+              <div class="row" id="mainmenu"></div>
+              <div class="row" id="submenus"></div>
             </div>
-
           </div>
 
         </div>
@@ -65,5 +63,11 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="scripts/script.js"></script>
 </body>
-
+<footer>
+  <div class="row">
+    <div class="twelve columns">
+      <p>Made with <a href="http://getskeleton.com/">skeleton</a> - Thanks CRT Effect for : <a href="http://aleclownes.com/2017/02/01/crt-display.html">aleclownes</a></p>
+    </div>
+  </div>
+</footer>
 </html>
